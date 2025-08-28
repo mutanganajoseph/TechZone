@@ -11,7 +11,7 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: black;
+    background: linear-gradient(90deg, #26086d,#7905c6e8);
 }
 
 ul{
@@ -39,7 +39,7 @@ img{
 }
 
 header{
-     background-color: black;
+    background: linear-gradient(90deg, #7cdb10, #123e75);
     position: sticky;
     top: 0;
    
@@ -66,7 +66,6 @@ header .nav-bar{
 
 .nav-bar .nav-menu .nav-link{
     color: var(--white-color);
-    background-color: black;
     padding: 8px 8px;
     font-size: 12px;
     border-radius: 20px;
@@ -86,7 +85,9 @@ header .nav-bar{
 }
 
 .nav-bar .nav-logo .logotext{
-    color: #c2720a;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    letter-spacing: 2px;
     font-weight: bolder;
     font-size: 4rem;
     text-shadow: #e3d0d0 2px 2px;
@@ -110,7 +111,8 @@ header .nav-bar{
 
 /* Styling Hero Section */
 .hero-section{
-    background-color:black;
+    background: linear-gradient(90deg, #26086d, #b70cd23c,  #7905c6e8);
+
     
 }
 
@@ -125,7 +127,7 @@ header .nav-bar{
 }
 
 .hero-section .hero-img{
-    max-width: 500px;
+    max-width: 650px;
 }
 
 .hero-section .section-content .hero-detail .title{
@@ -170,7 +172,6 @@ header .nav-bar{
 }
 .hero-section .section-content .hero-detail .button .button-contact-us{
     border: white solid;
-    background-color:black;
     color: var(--white-color);
     border-radius: 20px;
     padding: 10px 26px;
@@ -198,7 +199,7 @@ header .nav-bar{
 /* Styling phone Section */
 
 .phone-section{
-    background-color: black;
+    background: linear-gradient(90deg, #26086d,#7905c6e8);
        
 
 }
@@ -222,7 +223,7 @@ header .nav-bar{
 
 .about-us-section{
     display: block;
-    background-color: black;
+    background: linear-gradient(90deg, #0b74c0, #123e75);
 
 
 }
@@ -239,7 +240,7 @@ header .nav-bar{
 
 .about-us-section .title{
     margin-top: 10px;
-    color:#f3961c;
+    color:white;
     border-bottom: white solid 5px;
 }
 .about-us-section .description{
@@ -282,11 +283,7 @@ header .nav-bar{
         transform: rotate(30deg);
        
     }
-    
 
-    100%{
-        
-    }
 }
 
 .about-us-section .social{
@@ -301,7 +298,7 @@ header .nav-bar{
 
 /* Styling Smartphones Sections */
 .smart-phone-section{
-    background-color: black;
+    background: linear-gradient(90deg, #10c3e7, #ea0e96);
 }
 
 .smart-phone-section .section-content{
@@ -314,7 +311,7 @@ header .nav-bar{
 }
 
 .smart-phone-section .section-content .title{
-    color: #f3961c;
+    color: white;
     margin: 24px;
     border-bottom: white solid 5px;
 
@@ -348,7 +345,7 @@ header .nav-bar{
 }
 
 .smart-phone-section .section-content .list .phone{
-    background-color: aliceblue;
+    background-color: rgba(245, 240, 255, 0.792);
     transition: 0.3s ease;
     border-radius: 20px;
     justify-content: center;
@@ -365,7 +362,7 @@ header .nav-bar{
 /* Styling Airpods Section */
 
 .airpods-section{
-    background-color: black;
+    background: linear-gradient(90deg, #705707, #126e75);
    
 
 }
@@ -378,7 +375,7 @@ header .nav-bar{
     align-items: center;
 }
 .airpods-section .section-content .title{
-    color: #f3961c;
+    color: white;
     margin: 24px;
     border-bottom: white solid 5px;
 
@@ -400,8 +397,9 @@ header .nav-bar{
 }
 
 .airpods-section .section-content .airpods-list .airpods{
-    background-color: aliceblue;
+   background-color: rgb(92, 100, 108);
     border-radius: 20px;
+    color:var(--secondary-color);
     transition: 0.3s ease;
     justify-content: center;
     text-align: center;
@@ -416,9 +414,9 @@ header .nav-bar{
 
 /* Styling Headphone Section */
 
-.headphone-section{
-    background-color: black;
-
+.headphone-section{ 
+  background: linear-gradient(90deg, #0d0d0d56, #1a1a1a); 
+  color: white;
 }
 
 .headphone-section .section-content{
@@ -430,7 +428,7 @@ header .nav-bar{
 }
 
 .headphone-section .section-content .title{
-   color: #f3961c;
+   color: white;
    margin: 24px;
    border-bottom: white solid 5px;
    font-weight: bolder;
@@ -450,8 +448,9 @@ header .nav-bar{
 }
 
 .headphone-section .section-content .list .headphone{
-    background-color: aliceblue;
+    background-color: rgba(123, 124, 124, 0.815);
     border-radius: 20px;
+    color: white;
     transition: 0.3s ease;
     justify-content: center;
     text-align: center;
@@ -463,7 +462,7 @@ header .nav-bar{
 
 /* Styling Speaker Section */
 .speaker-section{
-    background-color: black;
+   background: linear-gradient(90deg, #2008ab, #c1c7ce);
 }
 
 .speaker-section .section-content{
@@ -476,7 +475,7 @@ header .nav-bar{
 }
 
 .speaker-section .section-content .title{
-   color: #f3961c;
+   color: white;
    margin: 24px;
    border-bottom: white solid 5px;
    font-weight: bolder;
@@ -511,7 +510,8 @@ header .nav-bar{
 
 /* Styling what customer said */
 .customer-section{
-    background-color: black;
+     background: linear-gradient(20deg, #4781a8, #1a1a1a);
+     color: white;
 }
 
 .customer-section .section-content{
@@ -524,7 +524,7 @@ header .nav-bar{
 }
 
 .customer-section .section-content .title{
-   color: #f3961c;
+   color: white;
    margin: 24px;
    border-bottom: white solid 5px;
    font-weight: bolder;
@@ -546,7 +546,7 @@ header .nav-bar{
 }
 
 .customer-section .section-content .list .user {
-    background-color: aliceblue;
+    background-color: rgb(92, 100, 108);
     border-radius: 20px;
     justify-content: center;
     transition: 0.3s ease;
@@ -560,6 +560,7 @@ header .nav-bar{
 .customer-section .section-content .user .name{
   font-size: small;
   margin: 10px;
+  color: black;
 
 }
 
@@ -569,7 +570,7 @@ header .nav-bar{
   font-size: small;
   text-align: center;
   font-weight: bold;
-  color: rgb(101, 107, 113);
+  color: rgb(235, 238, 241);
 
 }
 
@@ -582,7 +583,7 @@ header .nav-bar{
 
 /* Styling Gallery Section */
 .gallery-section{
-    background-color: black;
+    background: linear-gradient(90deg, #26086d, #b70cd23c,  #7905c6e8);
 }
 .gallery-section .section-content{
     color: #fff;
@@ -593,8 +594,8 @@ header .nav-bar{
 }
 
 .gallery-section .section-content .title{
-   font-size: 60px;
-   color: #f3961c;
+   
+   color: white;
    margin: 24px;
    border-bottom: white solid 5px;
    font-weight: bolder;
