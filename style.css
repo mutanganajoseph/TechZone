@@ -581,6 +581,12 @@ header .nav-bar{
 
 }
 
+.customer-section .section-content .user img:hover{
+    cursor: grab;
+
+
+}
+
 /* Styling Gallery Section */
 .gallery-section{
     background: linear-gradient(90deg, #26086d, #b70cd23c,  #7905c6e8);
