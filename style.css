@@ -585,6 +585,7 @@ header .nav-bar{
     background-color: black;
 }
 .gallery-section .section-content{
+    color: #fff;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
